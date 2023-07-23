@@ -33,3 +33,8 @@
 	font-family: semibold;
 	src: url("./assets/fonts/DM_Sans/DMSans_18pt-SemiBold.ttf");
 }
+
+@font-face {
+	font-family: light;
+	src: url("./assets/fonts/DM_Sans/DMSans-Light.ttf");
+}

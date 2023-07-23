@@ -11,13 +11,15 @@ export default {
       bold: ["bold"],
       semibold: ["semibold"],
       medium: ["medium"],
-      base: ["base"]
+      base: ["base"],
+      light: ["light"]
     },
     extend: {
       colors: {
         primary: '#0177AB',
         black: '#000929',
         gray: '#6B7280',
+        gray2: '#9A9EA7',
         red: '#E8505B'
       }
     },
