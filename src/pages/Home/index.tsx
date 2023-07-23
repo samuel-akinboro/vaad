@@ -11,6 +11,8 @@ import bannerOne from '../../assets/images/banner-1.png'
 import Banner from './components/Banner'
 import Factor from './components/Factor'
 import Banner2 from './components/Banner2'
+import Consultation from './components/Consultation'
+import Subscribe from './components/Subscribe'
 
 
 const productsData = [
@@ -68,6 +70,8 @@ const index = () => {
       <Banner image={bannerOne} />
       <Factor />
       <Banner2 />
+      <Consultation />
+      <Subscribe />
     </div>
   )
 }
