@@ -22,8 +22,8 @@ const Hero = () => {
             <h1 className='text-white font-bold text-[2.3rem] pt-8 lg:text-[3.5rem] xl:text-[4rem] 2xl:text-[4.5rem]'>Buy ad Space and Print in Minutes</h1>
             <p className='text-white font-light text-sm mt-2 lg:text-base lg:w-3/5 xl:w-[70%]'>We deliver visible and measurable return on investment (ROI) on outdoor advertising</p>
           </div>
-          <div style={{background: 'rgba(242, 250, 254, 0.12)'}} className='lg:flex-[0.40] bg-[#F2FAFE] rounded-lg px-3 py-5 2xl:flex-[0.30] xl:pb-12 xl:px-5'>
-            <div className='flex items-center gap-x-5 xl:pb-3'>
+          <div style={{background: 'rgba(242, 250, 254, 0.12)'}} className='lg:flex-[0.40] bg-[#F2FAFE] rounded-lg px-3 py-5 2xl:flex-[0.30] xl:pb-12 xl:px-5 mb-10'>
+            <div className='flex items-center gap-x-2 lg:gap-x-5 xl:pb-3'>
               <p className='text-white font-light text-sm lg:text-base border-b-red border-solid border-b pr-3 pb-1'>Billboard</p>
               <p className='text-gray2 font-light text-sm lg:text-base pr-3 pb-1'>Print</p>
               <p className='text-gray2 font-light text-sm lg:text-base pr-3 pb-1'>Digital</p>
@@ -31,20 +31,20 @@ const Hero = () => {
               <p className='text-gray2 font-light text-sm lg:text-base pr-3 pb-1'>Tv</p>
             </div>
             <div className='mt-4'>
-              <p className='text-white text-sm lg:text-base mb-2'>Location</p>
+              <p className='text-white text-sm lg:text-base mb-2 font-light'>Location</p>
               <div style={{background: 'rgba(255, 255, 255, 0.20)'}} className='flex items-center justify-between rounded-md cursor-pointer p-2'>
                 <p className='text-sm lg:text-base text-[#A2A6B0]'>Select</p>
                 <ChevronDownIcon className='h-4 text-[#A2A6B0]' />
               </div>
             </div>
             <div className='mt-4'>
-              <p className='text-white text-sm lg:text-base mb-2'>Media type</p>
+              <p className='text-white text-sm lg:text-base mb-2 font-light'>Media type</p>
               <div style={{background: 'rgba(255, 255, 255, 0.20)'}} className='flex items-center justify-between rounded-md cursor-pointer p-2'>
                 <p className='text-sm lg:text-base text-[#A2A6B0]'>Select</p>
                 <ChevronDownIcon className='h-4 text-[#A2A6B0]' />
               </div>
             </div>
-            <Link className="bg-primary text-white text-sm lg:text-base w-full block mt-10 mb-8 rounded-md py-2 text-center" to='/'>Proceed</Link>
+            <Link className="bg-primary text-white text-sm lg:text-base w-full block mt-12 mb-8 rounded-md py-2 text-center font-light" to='/'>Proceed</Link>
           </div>
         </div>
       </div>
