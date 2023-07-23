@@ -1,0 +1,26 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    fontFamily: {
+      black: ["black"],
+      extrabold: ["extrabold"],
+      bold: ["bold"],
+      semibold: ["semibold"],
+      medium: ["medium"],
+      base: ["base"]
+    },
+    extend: {
+      colors: {
+        primary: '#0177AB',
+        black: '#000929',
+        gray: '#6B7280',
+        red: '#E8505B'
+      }
+    },
+  },
+  plugins: [],
+}
