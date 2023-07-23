@@ -7,7 +7,7 @@ interface Prop {
 
 const Banner = ({image}: Prop) => {
   return (
-    <div style={{backgroundImage: window.innerWidth < 1024 ? '' : `url(${bg})`}} className='relative mt-12 lg:mt-20 py-8 lg:py-16 bg-[#F7FBFC] lg:bg-transparent bg-cover'>
+    <div style={{backgroundImage: window.innerWidth < 1024 ? '' : `url(${bg})`}} className='relative mt-12 lg:mt-20 py-8 lg:py-20 bg-[#F7FBFC] lg:bg-transparent bg-contain'>
       <div className="w-10/12 mx-auto max-w-[1400px] h-full relative z-[3] lg:flex lg:items-center lg:justify-between">
         <div className='flex-[0.50]'>
           <p className="text-lg lg:text-[2.25rem] font-semibold lg:w-[24rem] lg:leading-[2.5rem]">Experts in media planning and buying</p>

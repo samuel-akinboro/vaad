@@ -9,6 +9,8 @@ import productImageFive from '../../assets/images/product5.png'
 import productImageSix from '../../assets/images/product6.png'
 import bannerOne from '../../assets/images/banner-1.png'
 import Banner from './components/Banner'
+import Factor from './components/Factor'
+import Banner2 from './components/Banner2'
 
 
 const productsData = [
@@ -64,6 +66,8 @@ const index = () => {
       <ProductSection data={[...productsData.slice(0, 3)]} />
       <ProductSection data={[...productsData.slice(3)]} />
       <Banner image={bannerOne} />
+      <Factor />
+      <Banner2 />
     </div>
   )
 }
