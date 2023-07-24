@@ -28,7 +28,7 @@ const ProductSection = ({ data }:Prop) => {
               <p className='text-gray text-sm lg:text-base font-light my-3'>{product.size}-{product.type}</p>
               <div className='flex justify-between items-center mb-2'>
                 <p className='text-primary text-sm lg:text-base font-semibold'>N421,400</p>
-                <Link to="/" className='bg-primary py-2 rounded-md text-white font-light px-4'>Book</Link>
+                <Link to="/dashboard" className='bg-primary py-2 rounded-md text-white font-light px-4'>Book</Link>
               </div>
             </div>
           ))}
