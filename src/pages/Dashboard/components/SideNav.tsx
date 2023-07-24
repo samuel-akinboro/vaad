@@ -1,6 +1,6 @@
 import logoImage from '../../../assets/images/logo.png'
 import { Link, NavLink } from 'react-router-dom'
-import { ArrowRightOnRectangleIcon, BanknotesIcon, BookmarkSquareIcon, ChartBarSquareIcon, Cog6ToothIcon, PresentationChartLineIcon, UserGroupIcon, WalletIcon } from '@heroicons/react/24/outline'
+import { ArrowRightOnRectangleIcon, BanknotesIcon, BookmarkSquareIcon, ChartBarSquareIcon, Cog6ToothIcon, PresentationChartLineIcon, UserGroupIcon } from '@heroicons/react/24/outline'
 
 
 const SideNav = () => {
