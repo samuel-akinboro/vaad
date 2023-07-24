@@ -10,12 +10,12 @@ const Hero = () => {
       <div className="w-10/12 h-full mx-auto z-10 relative flex flex-col max-w-[1400px]">
         <div className='hidden lg:flex items-center gap-x-14 py-6'>
           <NavLink to='/' className={({isActive}) => isActive ? 'font-medium text-primary' : 'text-white font-medium'}>Home</NavLink>
-          <NavLink to='/' className={({isActive}) => 'text-white font-regular'}>Billboards</NavLink>
-          <NavLink to='/' className={({isActive}) =>  'text-white font-regular'}>TV</NavLink>
-          <NavLink to='/' className={({isActive}) =>  'text-white font-regular'}>Radio</NavLink>
-          <NavLink to='/' className={({isActive}) =>  'text-white font-regular'}>Digital</NavLink>
-          <NavLink to='/' className={({isActive}) =>  'text-white font-regular'}>Billboards</NavLink>
-          <NavLink to='/' className={({isActive}) =>  'text-white font-regular'}>Billboards</NavLink>
+          <NavLink to='/' className={'text-white font-regular'}>Billboards</NavLink>
+          <NavLink to='/' className={'text-white font-regular'}>TV</NavLink>
+          <NavLink to='/' className={'text-white font-regular'}>Radio</NavLink>
+          <NavLink to='/' className={'text-white font-regular'}>Digital</NavLink>
+          <NavLink to='/' className={'text-white font-regular'}>Billboards</NavLink>
+          <NavLink to='/' className={'text-white font-regular'}>Billboards</NavLink>
         </div>
         <div className='flex flex-col lg:flex-row lg:items-center gap-12 flex-1 xl:gap-28 justify-between'>
           <div className='flex-[0.60] 2xl:flex-[0.57] xl:-mt-20'>
