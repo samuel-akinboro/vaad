@@ -1,5 +1,5 @@
 import logoImage from '../../../assets/images/logo.png'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { PresentationChartLineIcon } from '@heroicons/react/24/outline'
 
 
@@ -43,10 +43,10 @@ const SideNav = () => {
           <PresentationChartLineIcon className='h-6' />
           Settings
         </NavLink>
-        <button className={`h-[3rem] flex items-center gap-3 rounded-lg text-sm pl-4 font-regular text-[#718096]`}>
+        <Link to='/' className={`h-[3rem] flex items-center gap-3 rounded-lg text-sm pl-4 font-regular text-[#718096]`}>
           <PresentationChartLineIcon className='h-6' />
           Logout
-        </button>
+        </Link>
       </div>
     </div>
   )
