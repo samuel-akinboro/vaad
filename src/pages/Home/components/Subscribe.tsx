@@ -15,7 +15,7 @@ const Subscribe = () => {
             </div>
             <div className='mt-12 lg:mt-0 lg:flex-[0.50] bg-white rounded-lg h-[3rem] overflow-hidden flex items-center gap-x-1 pr-1'>
               <input type="text" className='h-full flex-1 pl-4' placeholder='Enter your email' />
-              <button className='bg-red text-white font-light text-sm py-2 px-12 rounded-md w-fit lg:text-base'>Subscribe now</button>
+              <button className='bg-red text-white font-light text-sm py-2 px-2 lg:px-12 rounded-md w-fit lg:text-base'>Subscribe now</button>
             </div>
           </div>
         </div>

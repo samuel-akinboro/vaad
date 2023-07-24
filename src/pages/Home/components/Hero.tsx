@@ -24,11 +24,11 @@ const Hero = () => {
           </div>
           <div style={{background: 'rgba(242, 250, 254, 0.12)'}} className='lg:flex-[0.40] bg-[#F2FAFE] rounded-lg px-3 py-5 2xl:flex-[0.30] xl:pb-12 xl:px-5 mb-10'>
             <div className='flex items-center gap-x-2 lg:gap-x-5 xl:pb-3'>
-              <p className='text-white font-light text-sm lg:text-base border-b-red border-solid border-b pr-3 pb-1'>Billboard</p>
-              <p className='text-gray2 font-light text-sm lg:text-base pr-3 pb-1'>Print</p>
-              <p className='text-gray2 font-light text-sm lg:text-base pr-3 pb-1'>Digital</p>
-              <p className='text-gray2 font-light text-sm lg:text-base pr-3 pb-1'>Radio</p>
-              <p className='text-gray2 font-light text-sm lg:text-base pr-3 pb-1'>Tv</p>
+              <p className='text-white font-light text-sm lg:text-base border-b-red border-solid border-b-[2px] pr-3 pb-1 cursor-pointer'>Billboard</p>
+              <p className='text-gray2 font-light text-sm lg:text-base pr-3 pb-1 cursor-pointer'>Print</p>
+              <p className='text-gray2 font-light text-sm lg:text-base pr-3 pb-1 cursor-pointer'>Digital</p>
+              <p className='text-gray2 font-light text-sm lg:text-base pr-3 pb-1 cursor-pointer'>Radio</p>
+              <p className='text-gray2 font-light text-sm lg:text-base pr-3 pb-1 cursor-pointer'>Tv</p>
             </div>
             <div className='mt-4'>
               <p className='text-white text-sm lg:text-base mb-2 font-light'>Location</p>

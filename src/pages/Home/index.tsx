@@ -13,6 +13,7 @@ import Factor from './components/Factor'
 import Banner2 from './components/Banner2'
 import Consultation from './components/Consultation'
 import Subscribe from './components/Subscribe'
+import Footer from '../../components/Footer'
 
 
 const productsData = [
@@ -72,6 +73,7 @@ const index = () => {
       <Banner2 />
       <Consultation />
       <Subscribe />
+      <Footer />
     </div>
   )
 }
