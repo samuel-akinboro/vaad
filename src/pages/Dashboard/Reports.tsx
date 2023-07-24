@@ -2,7 +2,9 @@
 import Header from "./components/Header"
 import MainArea from "./components/MainArea"
 import SideNav from "./components/SideNav"
-// import billboardImage from '../../assets/images/billboard.png'
+import reportStaticImage from '../../assets/images/report-static.png'
+import reportStatImage from '../../assets/images/report-stats.png'
+import reportIncomeImage from '../../assets/images/report-income.png'
 // import { HeartIcon } from "@heroicons/react/24/solid"
 
 const Reports = () => {
@@ -18,26 +20,13 @@ const Reports = () => {
                 Reports
                 {/* <ChevronDownIcon className="h-5 text-[#6C727F]" /> */}
               </p>
-              {/* <div className="grid grid-cols-3 gap-6 pt-8">
-                {Array(9).fill('').map((_, i) => (
-                  <div className="overflow-hidden rounded-lg border border-gray3" key={i}>
-                    <img src={billboardImage} alt="" className="w-full h-[10rem]" />
-                    <div className="p-4 pt-6">
-                      <div className="flex items-center justify-between">
-                        <p className="text-primary text-[1.2rem] font-semibold">
-                          N2,095
-                          <span className="text-sm text-[#1D2130] font-light"> /month</span>
-                        </p>
-                        <p className="flex items-center justify-center rounded-full border border-gray3 h-[2.4rem] w-[2.4rem]">
-                          <HeartIcon className="h-5 text-red" />
-                        </p>
-                      </div>
-                      <p className="text-xl text-[#1D2130] font-semibold mt-2">Static Billboard</p>
-                      <p className="text-sm font-light mt-1">Lorem ipsum dolor sit amet cons ectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                ))}
-              </div> */}
+              <div className="grid grid-cols-2 gap-6 mt-8">
+                <div className="grid grid-rows-2 gap-6">
+                  <img src={reportStaticImage} alt="" />
+                  <img src={reportIncomeImage} alt="" />
+                </div>
+                <img src={reportStatImage} alt="" className="object-contain w-full" />
+              </div>
               {/* <div className="mx-auto w-fit flex items-center gap-4 mt-8">
                 <ChevronLeftIcon className="cursor-pointer h-6 text-primary" />
                 <p className="text-white h-[2.5rem] w-[2.5rem] flex items-center justify-center font-semibold text-lg bg-primary rounded-full">1</p>
