@@ -2,7 +2,7 @@ import Header from "./components/Header"
 import MainArea from "./components/MainArea"
 import SideNav from "./components/SideNav"
 
-const Customers = () => {
+const UserManagement = () => {
   return (
     <div>
       <div className='flex h-screen'>
@@ -18,4 +18,4 @@ const Customers = () => {
   )
 }
 
-export default Customers
+export default UserManagement
