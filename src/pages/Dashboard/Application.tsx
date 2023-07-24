@@ -1,7 +1,8 @@
-import { ChevronDownIcon } from "@heroicons/react/24/solid"
+import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid"
 import Header from "./components/Header"
 import MainArea from "./components/MainArea"
 import SideNav from "./components/SideNav"
+import rowImage from '../../assets/images/product1.png'
 
 const Application = () => {
   return (
@@ -26,28 +27,110 @@ const Application = () => {
                   <th className="text-left px-8 py-4"> </th>
                 </tr>
                 <tr
-                  className="hover:bg-gray-50 focus:bg-gray-300 active:bg-red-200 border-b border-gray3 text-[#1D2130] font-light"
+                  className="hover:bg-[#fefcfc] border-b border-gray3 text-[#1D2130] font-light"
                   tabIndex={0}
                 >
                   <td className="px-8 py-6">QWK00</td>
-                  <td className="px-8 py-6">Alfreds Futterkiste</td>
+                  <td className="px-8 py-6 flex items-center font-medium gap-x-3">
+                    <img src={rowImage} alt="" className="h-[2.6rem] w-[3.7rem] rounded-md" />
+                    Alfreds Futterkiste
+                  </td>
                   <td className="px-8 py-6">Dante Sparks</td>
                   <td className="px-8 py-6">May 16, 2023</td>
                   <td className="px-8 py-6">Lekki Lagos</td>
-                  <td className="px-8 py-6">View details</td>
+                  <td className="px-8 py-6 text-primary cursor-pointer">View details</td>
                 </tr>
                 <tr
-                  className="hover:bg-gray-50 focus:bg-gray-300 active:bg-red-200 border-b border-gray3 text-[#1D2130] font-light"
+                  className="hover:bg-[#fefcfc] border-b border-gray3 text-[#1D2130] font-light"
                   tabIndex={0}
                 >
                   <td className="px-8 py-6">QWK00</td>
-                  <td className="px-8 py-6">Alfreds Futterkiste</td>
+                  <td className="px-8 py-6 flex items-center font-medium gap-x-3">
+                    <img src={rowImage} alt="" className="h-[2.6rem] w-[3.7rem] rounded-md" />
+                    Alfreds Futterkiste
+                  </td>
                   <td className="px-8 py-6">Dante Sparks</td>
                   <td className="px-8 py-6">May 16, 2023</td>
                   <td className="px-8 py-6">Lekki Lagos</td>
-                  <td className="px-8 py-6">View details</td>
+                  <td className="px-8 py-6 text-primary cursor-pointer">View details</td>
+                </tr>
+                <tr
+                  className="hover:bg-[#fefcfc] border-b border-gray3 text-[#1D2130] font-light"
+                  tabIndex={0}
+                >
+                  <td className="px-8 py-6">QWK00</td>
+                  <td className="px-8 py-6 flex items-center font-medium gap-x-3">
+                    <img src={rowImage} alt="" className="h-[2.6rem] w-[3.7rem] rounded-md" />
+                    Alfreds Futterkiste
+                  </td>
+                  <td className="px-8 py-6">Dante Sparks</td>
+                  <td className="px-8 py-6">May 16, 2023</td>
+                  <td className="px-8 py-6">Lekki Lagos</td>
+                  <td className="px-8 py-6 text-primary cursor-pointer">View details</td>
+                </tr>
+                <tr
+                  className="hover:bg-[#fefcfc] border-b border-gray3 text-[#1D2130] font-light"
+                  tabIndex={0}
+                >
+                  <td className="px-8 py-6">QWK00</td>
+                  <td className="px-8 py-6 flex items-center font-medium gap-x-3">
+                    <img src={rowImage} alt="" className="h-[2.6rem] w-[3.7rem] rounded-md" />
+                    Alfreds Futterkiste
+                  </td>
+                  <td className="px-8 py-6">Dante Sparks</td>
+                  <td className="px-8 py-6">May 16, 2023</td>
+                  <td className="px-8 py-6">Lekki Lagos</td>
+                  <td className="px-8 py-6 text-primary cursor-pointer">View details</td>
+                </tr>
+                <tr
+                  className="hover:bg-[#fefcfc] border-b border-gray3 text-[#1D2130] font-light"
+                  tabIndex={0}
+                >
+                  <td className="px-8 py-6">QWK00</td>
+                  <td className="px-8 py-6 flex items-center font-medium gap-x-3">
+                    <img src={rowImage} alt="" className="h-[2.6rem] w-[3.7rem] rounded-md" />
+                    Alfreds Futterkiste
+                  </td>
+                  <td className="px-8 py-6">Dante Sparks</td>
+                  <td className="px-8 py-6">May 16, 2023</td>
+                  <td className="px-8 py-6">Lekki Lagos</td>
+                  <td className="px-8 py-6 text-primary cursor-pointer">View details</td>
+                </tr>
+                <tr
+                  className="hover:bg-[#fefcfc] border-b border-gray3 text-[#1D2130] font-light"
+                  tabIndex={0}
+                >
+                  <td className="px-8 py-6">QWK00</td>
+                  <td className="px-8 py-6 flex items-center font-medium gap-x-3">
+                    <img src={rowImage} alt="" className="h-[2.6rem] w-[3.7rem] rounded-md" />
+                    Alfreds Futterkiste
+                  </td>
+                  <td className="px-8 py-6">Dante Sparks</td>
+                  <td className="px-8 py-6">May 16, 2023</td>
+                  <td className="px-8 py-6">Lekki Lagos</td>
+                  <td className="px-8 py-6 text-primary cursor-pointer">View details</td>
+                </tr>
+                <tr
+                  className="hover:bg-[#fefcfc] border-b border-gray3 text-[#1D2130] font-light"
+                  tabIndex={0}
+                >
+                  <td className="px-8 py-6">QWK00</td>
+                  <td className="px-8 py-6 flex items-center font-medium gap-x-3">
+                    <img src={rowImage} alt="" className="h-[2.6rem] w-[3.7rem] rounded-md" />
+                    Alfreds Futterkiste
+                  </td>
+                  <td className="px-8 py-6">Dante Sparks</td>
+                  <td className="px-8 py-6">May 16, 2023</td>
+                  <td className="px-8 py-6">Lekki Lagos</td>
+                  <td className="px-8 py-6 text-primary cursor-pointer">View details</td>
                 </tr>
               </table>
+              <div className="mx-auto w-fit flex items-center gap-4 mt-8">
+                <ChevronLeftIcon className="cursor-pointer h-6 text-primary" />
+                <p className="text-white h-[2.5rem] w-[2.5rem] flex items-center justify-center font-semibold text-lg bg-primary rounded-full">1</p>
+                <p className="text-gray2 h-[2.5rem] w-[2.5rem] flex items-center justify-center font-semibold text-lg bg-white shadow-lg rounded-full cursor-pointer">2</p>
+                <ChevronRightIcon className="cursor-pointer h-6 text-primary" />
+              </div>
             </div>
           </div>
         </MainArea>
