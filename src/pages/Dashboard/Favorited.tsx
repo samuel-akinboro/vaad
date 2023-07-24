@@ -18,7 +18,7 @@ const Favorited = () => {
                 Favorited
                 {/* <ChevronDownIcon className="h-5 text-[#6C727F]" /> */}
               </p>
-              <div className="grid grid-cols-3 gap-6 pt-8">
+              <div className="grid grid-cols-3 gap-6 pt-8 2xl:grid-cols-4">
                 {Array(9).fill('').map((_, i) => (
                   <div className="overflow-hidden rounded-lg border border-gray3" key={i}>
                     <img src={billboardImage} alt="" className="w-full h-[10rem]" />
