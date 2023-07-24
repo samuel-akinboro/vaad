@@ -7,6 +7,7 @@ import Favorited from './pages/Dashboard/Favorited'
 import Reports from './pages/Dashboard/Reports'
 import Subscription from './pages/Dashboard/Subscription'
 import UserManagement from './pages/Dashboard/UserManagement'
+import Settings from './pages/Dashboard/Settings'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/dashboard/reports' element={<Reports />} />
         <Route path='/dashboard/subscription' element={<Subscription />} />
         <Route path='/dashboard/user-management' element={<UserManagement />} />
+        <Route path='/dashboard/settings' element={<Settings />} />
       </Routes>
     </BrowserRouter>
   )
